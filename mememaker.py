@@ -67,9 +67,9 @@ def __get_memesubject_index__(subject):
         return 4
     if re.match("поворо(т|том)", subject):
         return 5
-    if re.match("кнопкой", subject):
-        return 21
     if re.match("винни", subject):
+        return 21
+    if re.match("кнопкой", subject):
         return 22
     if re.match("пар[ау]", subject):
         return 24
